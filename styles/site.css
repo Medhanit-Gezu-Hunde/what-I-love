@@ -1,0 +1,185 @@
+/* Fonts & Global Reset */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d1117;
+  color: #e2e8f0;
+}
+
+header {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: pink;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  color: black;
+  text-decoration:plum;
+}
+
+/* Hero Section */
+.hero {
+  background-image:url(images/background.jpg);/* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-btn {
+  padding: 12px 24px;
+  background: #00b4db;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #00b4db;
+  background:;
+}
+
+/* Highlights Section */
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 20px;
+  background-color: #1f2937;
+}
+
+.highlight-card {
+  background: #273549;
+  border: 2px solid #3b82f6;
+  padding: 20px;
+  border-radius: 10px;
+  width: 260px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: scale(1.05);
+}
+
+.highlight-card i {
+  font-size: 2.5rem;
+  color: #60a5fa;
+  margin-bottom: 10px;
+}
+
+.highlight-card h3 {
+  font-size: 1.3rem;
+  color: #93c5fd;
+  margin-bottom: 10px;
+}
+
+.highlight-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Quote Section */
+.quote {
+  background: #111827;
+  padding: 40px 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e0f2fe;
+}
+
+.quote span {
+  display: block;
+  margin-top: 15px;
+  font-size: 1rem;
+  font-style:normal;
+  color: #60a5fa;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #1e293b;
+  color: pink;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .highlight-card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .highlight-card {
+    width: 90%;
+  }
+
+  .hero h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
