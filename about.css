@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:rgb(190, 215, 230);
+  color: #333;
+  line-height: 1.8;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #1e7255, #417fa2);
+  color:#f0bdf0;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.passion-section {
+  background:#e8e2ea;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(110, 179, 233, 0.08);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.passion-section:hover {
+  transform: scale(1.02);
+}
+
+.passion-section h2 {
+  color:rgb(121, 34, 102);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.passion-section p {
+  font-size: 1.05rem;
+  color:rgb(42, 106, 125);
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .passion-section {
+    padding: 1.5rem;
+  }
+
+  .passion-section h2 {
+    font-size: 1.5rem;
+  }
+}
