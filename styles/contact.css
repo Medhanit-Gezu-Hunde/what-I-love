@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color:black;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #1c1c1c;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffe7;
+}
+
+nav a {
+  color: #ccc;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  color: #00ffe7;
+}
+
+.contact-info {
+  padding: 2rem;
+  text-align: center;
+}
+
+.comment-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form input,
+.comment-form textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #222;
+  color: #fff;
+}
+
+.comment-form button {
+  background-color: #00ffe7;
+  color:white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.comment-form button:hover {
+  background-color: #00cccc;
+}
+
+.socials {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 1.2rem;
+  color: #00ffe7;
+  text-decoration: none;
+}
+
+.social-links i {
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+}
