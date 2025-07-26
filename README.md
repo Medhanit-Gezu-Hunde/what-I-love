@@ -1,6 +1,4 @@
 A personal web page showcasing my passion for Space, Mechanical Design, and Coding.
-This project blends creativity, technology, and design to create an interactive and visually engaging portfolio.
-
  🔍 Overview
 
 This website highlights three core areas that drive my curiosity and learning:
@@ -41,3 +39,6 @@ This website highlights three core areas that drive my curiosity and learning:
     Font Awesome 6
     Google Fonts
     Visual Studio Code
+    live demo
+    https://what-i-love-three.vercel.app/
+    done by Medhanit Gezu
