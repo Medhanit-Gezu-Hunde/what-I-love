@@ -39,3 +39,5 @@ This website highlights three core areas that drive my curiosity and learning:
     Font Awesome 6
     Google Fonts
     Visual Studio Code
+    live demo
+    https://what-i-love-three.vercel.app/
