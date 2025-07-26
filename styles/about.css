@@ -15,8 +15,8 @@ body {
 header {
   text-align: center;
   padding: 3rem 1rem;
-  background: linear-gradient(to right, #1e7255, #417fa2);
-  color:#f0bdf0;
+  background: linear-gradient(to right,rgb(77, 45, 84),rgb(64, 152, 173));
+  color:rgb(231, 245, 253);
 }
 
 header h1 {
@@ -24,13 +24,16 @@ header h1 {
   margin-bottom: 0.5rem;
 }
 
-header p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 0 auto;
+nav a {
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+  font-weight: bold;
 }
-nav:hover{
-  color: #1e7255;
+
+nav a.active,
+nav a:hover {
+  color: #489fc4;
 }
 
 main {
@@ -66,6 +69,13 @@ main {
 @media (max-width: 768px) {
   header h1 {
     font-size: 2rem;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+ nav a {
+    margin: 10px 0;
   }
 
   .passion-section {
