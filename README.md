@@ -41,3 +41,4 @@ This website highlights three core areas that drive my curiosity and learning:
     Visual Studio Code
     live demo
     https://what-i-love-three.vercel.app/
+    done by Medhanit Gezu
