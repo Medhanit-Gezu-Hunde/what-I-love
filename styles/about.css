@@ -49,9 +49,9 @@ main {
 }
 
 .passion-section {
-  background:#e8e2ea;
+  background: #273549;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(110, 179, 233, 0.08);
+  box-shadow: 0 4px 12px#3b82f6;
   padding: 2rem;
   margin-bottom: 2rem;
   transition: transform 0.3s ease;
@@ -62,14 +62,14 @@ main {
 }
 
 .passion-section h2 {
-  color:rgb(121, 34, 102);
+  color: #60a5fa;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
 .passion-section p {
   font-size: 1.05rem;
-  color:rgb(42, 106, 125);
+  color:#93c5fd;
 }
 
 @media (max-width: 768px) {
